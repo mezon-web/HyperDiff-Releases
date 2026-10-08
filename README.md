@@ -7,7 +7,7 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 
 [最新の配布版をダウンロード](https://github.com/mezon-web/HyperDiff-Releases/releases/latest)
 
-Releaseの **Assets** から `HyperDiff vX.Y.Z.7z` をダウンロードし、フォルダーごと展開してください。
+Releaseの **Assets** から `HyperDiff.vX.Y.Z.7z` をダウンロードし、フォルダーごと展開してください。
 GitHubが自動生成する「Source code (zip / tar.gz)」にはアプリ本体は含まれません。
 
 ## 同梱アプリ
@@ -39,7 +39,7 @@ PDF比較は、同梱の「PDF比較ワークフロー.html」を参照してく
 Releaseに添付する `.sha256` と、以下のコマンドで得たハッシュ値を照合できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff v0.16.1.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.16.1.7z'
 ```
 
 ## 更新履歴
