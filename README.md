@@ -39,7 +39,7 @@ PDF比較は、同梱の「PDF比較ワークフロー.html」を参照してく
 Releaseに添付する `.sha256` と、以下のコマンドで得たハッシュ値を照合できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.16.1.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.16.3.7z'
 ```
 
 ## 更新履歴
