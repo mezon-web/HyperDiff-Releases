@@ -29,6 +29,7 @@ GitHubが自動生成する「Source code (zip / tar.gz)」にはアプリ本体
 展開先の各アプリフォルダー内の `.exe` を起動してください。
 通常版DoclingMはPython本体を同梱し、依存ライブラリとモデルはアプリ内で準備します。
 実行に必要なPython workerも通常配布版に含まれます。
+環境構築用のpipキャッシュは `%LocalAppData%\pip\Cache` に保存し、更新や再構築時にも再利用します。
 
 詳しい操作は各アプリのヘルプと同梱マニュアルを参照してください。
 PDF比較は、同梱の「PDF比較ワークフロー.html」を参照してください。
@@ -39,7 +40,7 @@ PDF比較は、同梱の「PDF比較ワークフロー.html」を参照してく
 Releaseに添付する `.sha256` と、以下のコマンドで得たハッシュ値を照合できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.16.5.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.17.0.7z'
 ```
 
 ## 更新履歴
