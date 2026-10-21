@@ -26,8 +26,10 @@ GitHubが自動生成する「Source code (zip / tar.gz)」にはアプリ本体
 - Wordの文書表示・画像付きレポートには[Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/)
 - DoclingMの初回セットアップ・モデル取得にはインターネット接続
 
-展開先の各アプリフォルダー内の `.exe` を起動してください。
-通常版DoclingMはPython本体を同梱し、依存ライブラリとモデルはアプリ内で準備します。
+最上位フォルダーは `HyperDiff v0.17.8`、その中のアプリフォルダーは `ExcelDiffViewer`、`PdfDiffViewer`、`WordDiffViewer`、`DoclingM` です。
+各アプリフォルダー内の `.exe` を起動してください。
+通常版DoclingMはPython本体を同梱し、依存ライブラリはアプリ直下の `env`、モデルはアプリ内で準備します。
+旧版の実行環境は引き継がず、初回利用時に再セットアップします。Windowsのパス長制限がある場合は、DoclingMの配置先フォルダーの絶対パスを105文字以下にしてください。
 実行に必要なPython workerも通常配布版に含まれます。
 取得済みの依存パッケージは `%LocalAppData%\pip\Cache` から再利用します。資材が揃っていれば通信せずに環境を再構築し、不足分だけ取得します。
 
@@ -40,7 +42,7 @@ PDF比較は、同梱の「PDF比較ワークフロー.html」を参照してく
 Releaseに添付する `.sha256` と、以下のコマンドで得たハッシュ値を照合できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.17.7.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.17.8.7z'
 ```
 
 ## 更新履歴
