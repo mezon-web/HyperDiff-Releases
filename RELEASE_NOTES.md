@@ -2,6 +2,10 @@
 
 PDF・Word・Excelの差分確認とDoclingMをまとめたWindows x64向けの配布版です。
 
+## v0.18.1の変更点
+
+PDFDiffでは、ページの上下を比較から除外する範囲を実際のページで確認しながら調整できます。3つのDiffの表示オプションは別ダイアログになり、変更は「OK」で確定します。ExcelDiffの比較後に検索できない場合を修正し、DoclingMの進捗表示には現在の処理内容を追加しました。
+
 ## ダウンロードと起動
 
 [最新のリリース](https://github.com/mezon-web/HyperDiff-Releases/releases/latest)のAssetsからHyperDiffの7zファイルをダウンロードし、フォルダーごと展開して各アプリの `.exe` を起動してください。「Source code (zip / tar.gz)」にはアプリ本体は含まれません。
