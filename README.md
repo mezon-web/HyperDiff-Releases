@@ -10,6 +10,14 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 Releaseの **Assets** から `HyperDiff.vX.Y.Z.7z` をダウンロードし、フォルダーごと展開してください。
 GitHubが自動生成する「Source code (zip / tar.gz)」にはアプリ本体は含まれません。
 
+## Pdf2Excel（単独配布）
+
+DoclingMで作成した画像付きJSONを、段落や図表ごとのExcelに変換する独立ツールです。
+
+- [Pdf2Excel v0.1.0をダウンロード](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/pdf2excel-v0.1.0)
+- [使い方・必要環境](PDF2EXCEL.md) / [更新履歴](PDF2EXCEL_CHANGELOG.md)
+- Windows x64、.NET 10 Desktop Runtime（x64）が必要です。.NETは同梱していません。
+
 ## 同梱アプリ
 
 | アプリ | 用途 |
