@@ -34,7 +34,7 @@ DoclingMで作成した画像付きJSONを、段落や図表ごとのExcelに変
 - Wordの文書表示・画像付きレポートには[Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/)
 - DoclingMの初回セットアップ・モデル取得にはインターネット接続
 
-最上位フォルダーは `HyperDiff v0.18.5`、その中のアプリフォルダーは `ExcelDiffViewer`、`PdfDiffViewer`、`WordDiffViewer`、`DoclingM` です。
+最上位フォルダーは `HyperDiff v0.18.6`、その中のアプリフォルダーは `ExcelDiffViewer`、`PdfDiffViewer`、`WordDiffViewer`、`DoclingM` です。
 各アプリフォルダー内の `.exe` を起動してください。
 DoclingMは初回利用時に必要な依存ライブラリ・モデルを準備します。
 v0.17.7以前から更新する場合は、初回に実行環境を再セットアップします。Windowsのパス長制限がある場合は、DoclingMの配置先の絶対パスを105文字以下にしてください。
@@ -48,7 +48,7 @@ PDF比較は、同梱の「PDF比較ワークフロー.html」を参照してく
 Releaseに添付する `.sha256` と、以下のコマンドで得たハッシュ値を照合できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.18.5.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.18.6.7z'
 ```
 
 ## 更新履歴
