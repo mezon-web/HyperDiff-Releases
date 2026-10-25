@@ -1,22 +1,18 @@
-# HyperDiff リリース案内
+# HyperDiff v0.18.3
 
-PDF・Word・Excelの差分確認とDoclingMをまとめたWindows x64向けの配布版です。
-
-## v0.18.2の変更点
-
-ExcelDiff・WordDiff・PDFDiffの補助画面で、見出しや枠、余白、操作ボタンのデザインを揃えました。PDFDiffの範囲除外プレビューでは、比較元・比較先の見出しとページ操作を見分けやすくしました。
+- WordDiffで、比較に読み込んだ文書とプレビュー・画像出力の内容をそろえました。比較後に元ファイルが上書き・削除された場合や、サイズ・更新日時が同じまま内容が変わった場合にも、確定した比較結果の内容を表示します。
+- 各Diffの詳細表示で、空白などの表記が異なる「書式だけの変更」でも注記が消えないよう修正し、画面とExcel出力の判定をそろえました。
+- PDFDiffの絞り込み・再表示の中止に応答しやすくし、別の表示要求に切り替えた後で古い結果が残らないようにしました。
+- ExcelDiffで、複数の図形を含むブックの比較で、一部の図形が比較対象から抜ける場合がある問題を修正しました。
+- ExcelDiffで、小さいブックを読み込んだときに、比較が失敗することがある問題を修正しました。
+- DoclingMで、既存の出力を置き換える途中にプロセスが終了した場合の復旧記録を保存するようにしました。同じ出力先への次の保存時に内容を確認して復旧し、中断後に利用者が編集した出力は自動で上書きしません。保存確定後の一時ファイル削除の失敗は、保存成功と区別して案内します。
+- DoclingMのバッチ処理で、開始直後や一部成功後のキャンセルが成功表示に変わる場合を修正しました。多数の入力の事前確認も中止できるようにしました。
+- DoclingMで、モデルの並列取得時に一時的な接続競合が起きた場合は、キャンセルを受け付けながら接続を待つようにしました。
 
 ## ダウンロードと起動
 
-[最新のリリース](https://github.com/mezon-web/HyperDiff-Releases/releases/latest)のAssetsからHyperDiffの7zファイルをダウンロードし、フォルダーごと展開して各アプリの `.exe` を起動してください。「Source code (zip / tar.gz)」にはアプリ本体は含まれません。
+Assetsの `HyperDiff.v0.18.3.7z` をダウンロードし、フォルダーごと展開して各アプリの `.exe` を起動してください。ExcelDiffViewer・PdfDiffViewer・WordDiffViewer・DoclingMを同梱しています。
 
-.NET 10 Windows Desktop Runtime x64が必要です。Wordの文書表示・画像付きレポートにはWebView2 Runtimeも必要です。DoclingMの依存ライブラリとモデルは初回に準備します。
+Windows x64、.NET 10 Windows Desktop Runtime x64が必要です。Wordの文書表示・画像付きレポートにはWebView2 Runtimeも必要です。DoclingMの初回セットアップ・モデル取得にはインターネット接続が必要です。
 
-## 同梱アプリ
-
-- ExcelDiffViewer
-- PdfDiffViewer
-- WordDiffViewer
-- DoclingM
-
-操作説明とPDF比較ガイドは配布ファイル内にあります。各版の変更点と注意事項は[更新履歴](CHANGELOG.md)および[リリース一覧](https://github.com/mezon-web/HyperDiff-Releases/releases)を確認してください。
+操作説明とPDF比較ワークフローは配布ファイルに同梱しています。アーカイブの整合性は添付の `.sha256` で確認できます。
