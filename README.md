@@ -5,16 +5,19 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 
 ## ダウンロード
 
-[最新の配布版をダウンロード](https://github.com/mezon-web/HyperDiff-Releases/releases/latest)
+**[最新版をダウンロード（v0.18.7・Windows x64・7z）](https://github.com/mezon-web/HyperDiff-Releases/releases/download/v0.18.7/HyperDiff.v0.18.7.7z)**
 
-Releaseの **Assets** から `HyperDiff.vX.Y.Z.7z` をダウンロードし、フォルダーごと展開してください。
+[更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/v0.18.7) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
+
+上の「最新版をダウンロード」から `HyperDiff.v0.18.7.7z` を取得し、フォルダーごと展開してください。
 GitHubが自動生成する「Source code (zip / tar.gz)」にはアプリ本体は含まれません。
 
 ## Pdf2Excel（単独配布）
 
 DoclingMで作成した画像付きJSONを、段落や図表ごとのExcelに変換する独立ツールです。
 
-- [Pdf2Excel v0.1.0をダウンロード](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/pdf2excel-v0.1.0)
+- **[Pdf2Excelの最新版をダウンロード（v0.1.0・プレビュー版・Windows x64・ZIP）](https://github.com/mezon-web/HyperDiff-Releases/releases/download/pdf2excel-v0.1.0/Pdf2Excel-v0.1.0.zip)**
+- [Pdf2Excelの更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/pdf2excel-v0.1.0) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
 - [使い方・必要環境](PDF2EXCEL.md) / [更新履歴](PDF2EXCEL_CHANGELOG.md)
 - Windows x64、.NET 10 Desktop Runtime（x64）が必要です。.NETは同梱していません。
 
@@ -54,3 +57,5 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\HyperDiff.v0.18.7.7z'
 ## 更新履歴
 
 各Releaseの説明と [CHANGELOG.md](CHANGELOG.md) を参照してください。
+
+<!-- 配布案内の更新手順: 実行用Assetは版番号付きのため、次回リリース公開時にREADME内のHyperDiff・Pdf2Excelそれぞれの版番号・直リンク・展開先名を新しいAssetに合わせて更新する。更新内容・過去バージョンへのリンクを残し、匿名のHEADリクエスト等で直リンクの到達先を確認する。GitHub Actionsは使用しない。 -->
