@@ -7,6 +7,8 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 
 **[最新版をダウンロード（v0.18.8・Windows x64・7z）](https://github.com/mezon-web/HyperDiff-Releases/releases/download/v0.18.8/HyperDiff.v0.18.8.7z)**
 
+2026-11-02更新：比較処理とメモリ使用量を改善したv0.18.8を配布しています。
+
 [更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/v0.18.8) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
 
 上の「最新版をダウンロード」から `HyperDiff.v0.18.8.7z` を取得し、フォルダーごと展開してください。
