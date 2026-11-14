@@ -5,13 +5,13 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 
 ## ダウンロード
 
-**[最新版をダウンロード（v0.19.7・Windows x64・7z）](https://github.com/mezon-web/HyperDiff-Releases/releases/download/v0.19.7/HyperDiff.v0.19.7.7z)**
+**[最新版をダウンロード（v0.19.8・Windows x64・7z）](https://github.com/mezon-web/HyperDiff-Releases/releases/download/v0.19.8/HyperDiff.v0.19.8.7z)**
 
-2026-11-14更新。PDFDiffで、本文・目次・注記・表の対応付けと、別の表や列への誤対応の抑制を改善したv0.19.7を配布しています。
+2026-11-14更新。PDFDiffで、複数ページの要件に続く本文や、句読点・数字の字間が異なる表題の対応付けを改善したv0.19.8を配布しています。
 
-[更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/v0.19.7) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
+[更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/v0.19.8) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
 
-上の「最新版をダウンロード」から `HyperDiff.v0.19.7.7z` を取得し、フォルダーごと展開してください。
+上の「最新版をダウンロード」から `HyperDiff.v0.19.8.7z` を取得し、フォルダーごと展開してください。
 GitHubが自動生成する「Source code (zip / tar.gz)」にはアプリ本体は含まれません。
 
 ## Pdf2Excel（単独配布）
@@ -39,7 +39,7 @@ DoclingMで作成した画像付きJSONを、段落や図表ごとのExcelに変
 - Wordの文書表示・画像付きレポートには[Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/)
 - DoclingMの初回セットアップ・モデル取得にはインターネット接続
 
-最上位フォルダーは `HyperDiff v0.19.7`、その中のアプリフォルダーは `ExcelDiffViewer`、`PdfDiffViewer`、`WordDiffViewer`、`DoclingM` です。
+最上位フォルダーは `HyperDiff v0.19.8`、その中のアプリフォルダーは `ExcelDiffViewer`、`PdfDiffViewer`、`WordDiffViewer`、`DoclingM` です。
 各アプリフォルダー内の `.exe` を起動してください。
 DoclingMは初回利用時に必要な依存ライブラリ・モデルを準備します。
 v0.17.7以前から更新する場合は、初回に実行環境を再セットアップします。Windowsのパス長制限がある場合は、DoclingMの配置先の絶対パスを105文字以下にしてください。
