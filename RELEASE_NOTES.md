@@ -1,18 +1,17 @@
-# HyperDiff v0.19.15
+# HyperDiff v0.19.16
 
 PDF・Word・Excelの差分確認と文書変換を行うWindows x64向けアプリセットです。
 
 ## 主な変更
 
-- PDFDiffで、図と図中の文字、表の結合セルや文献行の対応付けを改善しました。元の抽出範囲や内容を確認できない箇所、単語・数値の区切りが変わる箇所は差分として保持します。
-- PDFDiffで、同じ比較中の準備処理の重複を減らし、大きな文書の比較待ちを短縮しました。表示中の文書を同じ条件で再比較する際の不要な再解析・再計算も減らしました。
-- PDFDiffとExcelDiffで、初回比較の準備負荷を減らしました。必要環境は従来と同じです。
+- PDFDiffで、前後の本文と位置関係から同じ箇所と確認できる短いラベルや見出しについて、既存の対応が削除・追加に分かれるケースを改善しました。
+- PDFDiffで、同じ文面が繰り返される箇所の位置確認を厳密にし、別の箇所との曖昧な対応付けを抑えました。実際の改訂は差分として保持します。
 
 解析結果で見出しや表の所属を十分に確認できない場合は、対応する内容でも削除・追加として表示されることがあります。
 
 ## ダウンロードと起動
 
-Assetsの `HyperDiff.v0.19.15.7z` をダウンロードし、フォルダーごと展開して各アプリの `.exe` を起動してください。ExcelDiffViewer・PdfDiffViewer・WordDiffViewer・DoclingMを同梱しています。
+Assetsの `HyperDiff.v0.19.16.7z` をダウンロードし、フォルダーごと展開して各アプリの `.exe` を起動してください。ExcelDiffViewer・PdfDiffViewer・WordDiffViewer・DoclingMを同梱しています。
 
 Windows x64、.NET 10 Windows Desktop Runtime x64が必要です。Wordの文書表示・画像付きレポートにはWebView2 Runtimeも必要です。DoclingMの初回セットアップ・モデル取得にはインターネット接続が必要です。比較とレポート生成にMicrosoft Officeのインストールは必要ありません。
 
