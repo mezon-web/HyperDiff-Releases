@@ -12,6 +12,7 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 [更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/v0.19.16) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
 
 上の「最新版をダウンロード」から `HyperDiff.v0.19.16.7z` を取得し、フォルダーごと展開してください。
+2026-11-17に配布ファイルを更新しました。更新時はアーカイブをフォルダーごと展開し直してください。
 GitHubが自動生成する「Source code (zip / tar.gz)」にはアプリ本体は含まれません。
 
 ## Pdf2Excel（単独配布）
