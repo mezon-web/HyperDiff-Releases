@@ -7,7 +7,7 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 
 **[最新版をダウンロード（v0.20.0・Windows x64・7z）](https://github.com/mezon-web/HyperDiff-Releases/releases/download/v0.20.0/HyperDiff.v0.20.0.7z)**
 
-2026-11-19更新。PDFDiffの段落・繰り返し行・図の表セルの対応付けを改善し、DoclingMの解析環境を更新したv0.20.0を配布しています。
+2026-11-19に v0.20.0 の配布ファイルを更新しました。PDFDiffで、前後の対応から同じ段落と確認できる箇所の対応付けを改善しました。
 
 [更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/v0.20.0) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
 
