@@ -15,7 +15,7 @@ PDF・Word・Excelの差分確認と文書変換を行うWindows x64向けアプ
 
 Assetsの `HyperDiff.v0.20.1.7z` を取得し、フォルダーごと展開して各アプリの `.exe` を起動してください。ExcelDiffViewer・PdfDiffViewer・WordDiffViewer・DoclingMを同梱しています。
 
-2026-11-20に v0.20.1 の配布ファイルを更新しました。すでに v0.20.1 をお使いの場合も、最新版を取得してフォルダーごと展開し直してください。
+2026-11-21に同梱の更新履歴を更新し、v0.19.0〜v0.19.16の4アプリ分の変更を1節にまとめました。すでに v0.20.1 をお使いの場合も、最新版を取得してフォルダーごと展開し直してください。
 
 Windows x64と.NET 10 Windows Desktop Runtime x64が必要です。Wordの文書表示・画像付きレポートにはWebView2 Runtimeも必要です。DoclingMの初回セットアップ・モデル取得にはインターネット接続が必要です。比較とレポート生成にMicrosoft Officeのインストールは必要ありません。
 
