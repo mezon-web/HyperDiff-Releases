@@ -4,6 +4,8 @@ PDF・Word・Excelの差分確認と文書変換を行うWindows x64向けアプ
 
 ## 主な変更
 
+- PDFDiff・WordDiff・ExcelDiffで、操作できないボタンの背景と枠を淡い青みのグレーにし、有効なボタンとの区別をつけやすくしました。
+- PDFDiffとWordDiffで、倍率が100%のときも倍率ボタンを押せるようにしました。ほかの倍率では押すと100%に戻ります。
 - PDFDiffで、前後の対応から同じ箇所と確認できる段落や箇条書きについて、見出しの位置や改ページが変わった場合も対応付けを改善しました。
 - PDFDiffで、ページをまたぐ表の行や結合セルを含む表で、同じ行・列と確認できるセルの対応付けを改善しました。範囲が曖昧な箇所や数値・文言の変更は差分として残ります。
 - PDFDiff・WordDiff・ExcelDiffで、文字単位の差分を計算するときのメモリ使用量を抑えました。PDFDiffでは文書全体の比較処理も軽くしました。
@@ -12,6 +14,8 @@ PDF・Word・Excelの差分確認と文書変換を行うWindows x64向けアプ
 ## ダウンロードと起動
 
 Assetsの `HyperDiff.v0.20.1.7z` を取得し、フォルダーごと展開して各アプリの `.exe` を起動してください。ExcelDiffViewer・PdfDiffViewer・WordDiffViewer・DoclingMを同梱しています。
+
+2026-11-20に v0.20.1 の配布ファイルを更新しました。すでに v0.20.1 をお使いの場合も、最新版を取得してフォルダーごと展開し直してください。
 
 Windows x64と.NET 10 Windows Desktop Runtime x64が必要です。Wordの文書表示・画像付きレポートにはWebView2 Runtimeも必要です。DoclingMの初回セットアップ・モデル取得にはインターネット接続が必要です。比較とレポート生成にMicrosoft Officeのインストールは必要ありません。
 

@@ -9,6 +9,8 @@ PDF・Word・Excelの差分確認と文書変換を行う、Windows x64向けの
 
 v0.20.1では、PDFDiffの改ページをまたぐ本文・表の比較を改善し、DoclingMを日本語を含むフォルダーに配置してPDFを変換できるようにしました。
 
+2026-11-20に v0.20.1 の配布ファイルを更新しました。Diffビューアーの無効ボタンの配色と、PDFDiff・WordDiffの倍率ボタンを改善しました。
+
 [更新内容](https://github.com/mezon-web/HyperDiff-Releases/releases/tag/v0.20.1) · [過去バージョン](https://github.com/mezon-web/HyperDiff-Releases/releases)
 
 上の「最新版をダウンロード」から `HyperDiff.v0.20.1.7z` を取得し、フォルダーごと展開してください。
